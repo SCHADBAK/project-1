@@ -1,0 +1,280 @@
+/* Basic styles for layout and design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #800020; /* Rouge bordeaux background */
+    color: #ffffff; /* White text */
+}
+
+.logo img {
+    height: 100px; /* Increase the logo size */
+    border: 2px solid #ffffff; /* White border to highlight logo */
+    border-radius: 10px; /* Rounded corners */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+}
+
+form {
+    display: flex;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    border: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the main content */
+}
+
+.categories, .featured-products, .cta {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px; /* Max width for main content sections */
+    text-align: center;
+}
+
+/* Category and product list styles */
+.category-list, .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the category and product items */
+}
+
+.category-item, .product-item {
+    margin: 15px;
+    text-align: center;
+    flex: 1 1 200px; /* Grow to fill space, minimum width of 200px */
+    max-width: 300px; /* Max width for items */
+}
+
+.category-item img, .product-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.category-item p, .product-item p {
+    margin: 10px 0; /* Add margin to separate text from images */
+}
+
+/* CTA section styles */
+.cta {
+    text-align: center;
+    padding: 20px;
+    background-color: #800020; /* Rouge bordeaux background to match header */
+    color: #ffffff; /* White text */
+    border-radius: 10px;
+}
+
+.cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between social media links */
+}
+
+.social-media ul li {
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text for social media links */
+}
+/* Basic styles for layout and design */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #800020; /* Rouge bordeaux background */
+    color: #ffffff; /* White text */
+}
+
+.logo img {
+    height: 100px; /* Increase the logo size */
+    border: 2px solid #ffffff; /* White border to highlight logo */
+    border-radius: 10px; /* Rounded corners */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+}
+
+form {
+    display: flex;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+form button {
+    padding: 5px 10px;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    border: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the main content */
+}
+
+.product-categories, .product-listings, .cta {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1200px; /* Max width for main content sections */
+    text-align: center;
+}
+
+/* Category and product list styles */
+.category-list, .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the category and product items */
+}
+
+.category-item, .product-item {
+    margin: 15px;
+    text-align: center;
+    flex: 1 1 200px; /* Grow to fill space, minimum width of 200px */
+    max-width: 300px; /* Max width for items */
+}
+
+.category-item img, .product-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+}
+
+.category-item p, .product-item p {
+    margin: 10px 0; /* Add margin to separate text from images */
+}
+
+/* Footer styles */
+footer .cta {
+    text-align: center;
+    padding: 20px;
+    background-color: #800020; /* Rouge bordeaux background to match header */
+    color: #ffffff; /* White text */
+    border-radius: 10px;
+}
+
+footer .cta .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Margin for spacing */
+}
+
+footer .social-media {
+    margin-top: 20px;
+}
+
+footer .social-media h3 {
+    margin-bottom: 10px;
+}
+
+footer .social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between social media links */
+}
+
+footer .social-media ul li {
+    margin: 0 10px;
+}
+
+footer .social-media ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text*/
+}
